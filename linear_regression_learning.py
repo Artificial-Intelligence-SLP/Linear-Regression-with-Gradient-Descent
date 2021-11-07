@@ -13,9 +13,7 @@ from sklearn.model_selection import train_test_split
 
 def initialize_dataframe(source):
     df = None
-    if source == 'insurance':
-        df = pd.read_csv('insurance.csv')  # Reads CSV file into pandas dataframe
-    elif source == 'salary':
+    if source == 'salary':
         df = pd.read_csv('Salary_Data.csv')
     # Feel free to print the dataframe to see what it looks like.
     # print(df)
