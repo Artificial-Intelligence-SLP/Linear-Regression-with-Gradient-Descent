@@ -75,7 +75,7 @@ class LinearRegression:
                 converged = True
         # End while
         print('Converged:', converged)
-        print('Number of Epochs:'.format(n_epoch))
+        print('Number of Epochs: {}'.format(n_epoch))
 
     def display_plotted_data(self, x_label, y_label):
         # This is syntax from MatPlotLib library, plotting data is pretty straightforward :)
